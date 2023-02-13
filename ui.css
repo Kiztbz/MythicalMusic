@@ -12,6 +12,10 @@
 html {
     scroll-behavior: smooth;
 }
+body
+{
+    overflow-x: hidden;
+}
 
 /*Main Divs*/
 .header {
@@ -31,7 +35,6 @@ html {
     position: static;
     bottom: 0px;
     width: 100%;
-    height: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px) {
+    .nav
+    {
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .para-img
+    {
+        display: none;
+    }
+    .para-imgs
+    {
+        display: none;
+    }
+}
