@@ -15,7 +15,7 @@ html {
 
 /*Main Divs*/
 .header {
-    height: 80px;
+    height: 110px;
     display: flex;
     flex-direction: row;
     z-index: 5;
@@ -32,8 +32,10 @@ html {
     bottom: 0px;
     width: 100%;
     height: 80px;
-    color: white;
-    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Header Division*/
@@ -81,6 +83,12 @@ html {
     transition: 0.6s;
     position: absolute;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titan One', cursive;
+    font-size: 40px;   
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 
@@ -93,6 +101,7 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    align-items: center;
 }
 
 /*Slides*/
@@ -254,7 +263,7 @@ html {
 .front-para
 {
     position: absolute;
-    top: 90%;
+    top: 100%;
     left: 15%;
 }
 .para-name
@@ -268,6 +277,29 @@ html {
     font-size: 25px;
     font-family: 'Advent Pro', sans-serif;
 }
+.para-img
+{
+    position: absolute;
+    right: 25%;
+    top: 110%;
+    transform: rotate(10deg);
+}
+.para-img img
+{
+    width: 100%;
+}
+.para-imgs
+{
+    position: absolute;
+    right: 18%;
+    top: 108%;
+    transform: rotate(15deg);   
+}
+.para-imgs img
+{
+    width: 60%;
+}
+
 /*lines*/
 .h-line
 {
@@ -291,4 +323,30 @@ html {
 .v-line hr
 {
     border: 1px solid;
+}
+
+
+/*Footer*/
+.foot-head
+{
+    font-family: 'Advent Pro', sans-serif;
+}
+.icon
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 20px;
+    background-color: var(--font);
+}
+.social
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.copyright
+{
+    font-family: 'Advent Pro', sans-serif;
 }
